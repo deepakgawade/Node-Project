@@ -14,7 +14,7 @@ const  geocode = async (address, callback)=>{
         {
             const latitude=  data.features[0].center[0]
             const logitude=  data.features[0].center[1]
-            callback(undefined,latitude+', '+logitude)
+            callback(undefined,{latitude,logitude})
         }
        
 
