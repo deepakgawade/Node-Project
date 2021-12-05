@@ -1,5 +1,7 @@
 import {geocode} from './utils/geocode.js'
 import {forecast} from './utils/forecast.js'
+import { __esModule } from 'node-fetch';
+
 
 const address= process.argv[2];
 //Philadelphia

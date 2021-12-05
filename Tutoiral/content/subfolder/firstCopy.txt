@@ -1,0 +1,2 @@
+this is a copy from first two files. Content:text is here
+ :: this is is second file
